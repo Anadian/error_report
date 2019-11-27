@@ -16,7 +16,7 @@
 # Usage
 # API
 # Contributing
-Changes are tracked in [Documents/CHANGES.md](./CHANGES.md).
+Changes are tracked in [CHANGES.md](CHANGES.md).
 # License
 MIT ©2019 Anadian
-SEE LICENSE IN [Documents/LICENSE](./LICENSE)
+SEE LICENSE IN [LICENSE](LICENSE)
