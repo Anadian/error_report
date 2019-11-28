@@ -3,3 +3,4 @@
 - 2019-11-27 v0.1.1 Testing TravisCI.
 - 2019-11-28 v0.1.2 Added GoDoc and installation to the README.
 - 2019-11-28 v0.1.3 Testing Coveralls.
+- 2019-11-28 v0.1.4 Added coverage badge and usage example to README.
