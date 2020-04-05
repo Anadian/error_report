@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="error__report_8go" kind="file"><name>error_report.go</name>
+    <member refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kind="variable"><name>error_report</name></member>
+    <member refid="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" kind="variable"><name>interface</name></member>
+    <member refid="error__report_8go_1a68c90f35f93ac78f57095f22d99fb8fa" kind="function"><name>import</name></member>
+    <member refid="error__report_8go_1aad4f70f478f3cf8ac1de1235eb41566a" kind="function"><name>const</name></member>
+    <member refid="error__report_8go_1ab97fd8d9b6b6a96bab1bdb89b49bd10b" kind="function"><name>New</name></member>
+  </compound>
+  <compound refid="error__report__test_8go" kind="file"><name>error_report_test.go</name>
+    <member refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kind="variable"><name>error_report</name></member>
+    <member refid="error__report__test_8go_1aa973235d56c608fc86e29e00b52ac800" kind="function"><name>import</name></member>
+    <member refid="error__report__test_8go_1aad4f70f478f3cf8ac1de1235eb41566a" kind="function"><name>const</name></member>
+    <member refid="error__report__test_8go_1a2f45d7c5e94d31773face53ed6eae46a" kind="function"><name>Test</name></member>
+  </compound>
+  <compound refid="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b" kind="dir"><name>source</name>
+  </compound>
+</doxygenindex>

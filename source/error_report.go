@@ -2,7 +2,21 @@
 * @file error_report.go
 * @brief Provides interfaces, structs, and functions for working with error reports.
 * @author Anadian
-* @copyright MITlicensetm(2019,Canosw)
+* @copyright 	Copyright 2019 Canosw
+	Permission is hereby granted, free of charge, to any person obtaining a copy of this 
+software and associated documentation files (the "Software"), to deal in the Software 
+without restriction, including without limitation the rights to use, copy, modify, 
+merge, publish, distribute, sublicense, and/or sell copies of the Software, and to 
+permit persons to whom the Software is furnished to do so, subject to the following 
+conditions:
+	The above copyright notice and this permission notice shall be included in all copies 
+or substantial portions of the Software.
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
+OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
 // error_report provides interfaces, structs, and functions for working with error reports.
@@ -183,6 +197,31 @@ func (error_report ErrorReport_struct) GetWrapped() ErrorReport_struct{
 }
 
 /**
+* @fn GetWrappedBottom
+* @brief Returns the deepest wrapped report.
+* @struct error_report *ErrorReport_struct
+* @return ( return_report error_report.ErrorReport_struct ) 
+* @retval 0 Success
+* @retval 1 Not Supported
+* @retval >1 Error
+*/
+
+// GetWrappedBottom returns the deepest wrapped report.
+func (error_report ErrorReport_struct) GetWrappedBottom() ( return_report ErrorReport_struct ){
+	//Variables
+	var function_return ErrorReport_struct = error_report;
+	//Parametres
+	//Function
+	for ; function_return.WrapsAnother() == true; {
+		function_return = function_return.GetWrapped();
+	}
+	return_report = New( 0, map[string]interface{}{ "deepest_wrapped": function_return }, nil );
+
+	//Return
+	return return_report;
+}
+
+/**
 * @fn Wrap
 * @brief Wraps the given error report inside of this error report.
 * @struct error_report *ErrorReport_struct
@@ -202,6 +241,7 @@ func (error_report *ErrorReport_struct) Wrap( wrap_report ErrorReport_struct ) {
 //# Global Variables
 var(
 	//## Exported Variables
+	ERROR_REPORT_NIL_VALUE ErrorReport_struct = ErrorReport_struct{ 0, map[string]interface{}{}, nil }
 	//## Private Variables
 );
 

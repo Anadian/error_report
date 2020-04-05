@@ -4,3 +4,4 @@
 - 2019-11-28 v0.1.2 Added GoDoc and installation to the README.
 - 2019-11-28 v0.1.3 Testing Coveralls.
 - 2019-11-28 v0.1.4 Added coverage badge and usage example to README.
+- 2020-04-04 v0.2.0 Added new function `error_report.GetWrappedBottom`.

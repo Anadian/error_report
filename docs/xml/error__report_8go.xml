@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="error__report_8go" kind="file" language="Javascript">
+    <compoundname>error_report.go</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" prot="public" static="no" mutable="no">
+        <type>package</type>
+        <definition>package error_report</definition>
+        <argsstring></argsstring>
+        <name>error_report</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="9" column="1" bodyfile="source/error_report.go" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" prot="public" static="no" mutable="no">
+        <type>type ErrorReport_interface</type>
+        <definition>type ErrorReport_interface interface</definition>
+        <argsstring></argsstring>
+        <name>interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="27" column="1" bodyfile="source/error_report.go" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="error__report_8go_1a68c90f35f93ac78f57095f22d99fb8fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>import</definition>
+        <argsstring>()</argsstring>
+        <name>import</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="error__report_8go_1aad4f70f478f3cf8ac1de1235eb41566a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>const</definition>
+        <argsstring>()</argsstring>
+        <name>const</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="error__report_8go_1ab97fd8d9b6b6a96bab1bdb89b49bd10b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>func</type>
+        <definition>func New</definition>
+        <argsstring>(code int64, data map[string]interface{}, wrapped_report *ErrorReport_struct) ErrorReport_struct</argsstring>
+        <name>New</name>
+        <param>
+          <type>code</type>
+          <declname>int64</declname>
+        </param>
+        <param>
+          <type>data mapinterface{}</type>
+          <defname>data mapinterface{}</defname>
+          <array>[string]</array>
+        </param>
+        <param>
+          <type>wrapped_report *</type>
+          <declname>ErrorReport_struct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="221" column="1" bodyfile="source/error_report.go" bodystart="221" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides interfaces, structs, and functions for working with error reports. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Anadian </para></simplesect>
+<simplesect kind="copyright"><para>MITlicensetm(2019,Canosw) </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/>@file<sp/>error_report.go</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*<sp/>@brief<sp/>Provides<sp/>interfaces,<sp/>structs,<sp/>and<sp/>functions<sp/>for<sp/>working<sp/>with<sp/>error<sp/>reports.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/>@author<sp/>Anadian</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/>@copyright<sp/>MITlicensetm(2019,Canosw)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>error_report<sp/>provides<sp/>interfaces,<sp/>structs,<sp/>and<sp/>functions<sp/>for<sp/>working<sp/>with<sp/>error<sp/>reports.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">error_report;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Dependencies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Internal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Standard</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>External</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Exported<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>Errors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Private<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Types</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//##<sp/>Interfaces</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" refkind="member"><highlight class="normal">type<sp/>ErrorReport_interface<sp/><ref refid="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" kindref="member">interface</ref>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>NoError()<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>IsError()<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>CodeEqual(<sp/>code<sp/>int64<sp/>)<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//GetString()<sp/>string</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>WrapsAnother()<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWrapped()<sp/>ErrorReport_struct</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>Wrap(<sp/><ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref><sp/>ErrorReport_struct<sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ToJSON()<sp/>[]byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//FromJSON(<sp/>json_data<sp/>[]byte<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//MatchJSONSchema(<sp/>schema_json_data<sp/>[]<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//##<sp/>Structs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">type<sp/>ErrorReport_struct<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>Code<sp/>int64</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>Data<sp/>map[string]<ref refid="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" kindref="member">interface</ref>{}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>Wrapped<sp/>*ErrorReport_struct</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//###<sp/>Methods</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="46"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="47"><highlight class="comment">*<sp/>@fn<sp/>NoError</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">*<sp/>@brief<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>error<sp/>report<sp/>doesn&apos;t<sp/>signify<sp/>any<sp/>errors.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">*<sp/>@struct<sp/>error_report<sp/>ErrorReport_struct</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">*<sp/>@return<sp/>bool</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">*<sp/>@retval<sp/>true<sp/>The<sp/>preceding<sp/>`error_report`<sp/>struct<sp/>signifies<sp/>no<sp/>errors.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">*<sp/>@retval<sp/>false<sp/>There<sp/>are<sp/>errors<sp/>signified<sp/>by<sp/>the<sp/>parent<sp/>value.</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NoError<sp/>returns<sp/>true<sp/>if<sp/>the<sp/>error<sp/>report<sp/>doesn&apos;t<sp/>signify<sp/>any<sp/>errors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">func<sp/>(<ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref><sp/>ErrorReport_struct)<sp/>NoError()<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>_return<sp/>bool;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parametres<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Code<sp/>==<sp/>0<sp/>){</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Return<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_return;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="69"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="70"><highlight class="comment">*<sp/>@fn<sp/>IsError</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">*<sp/>@brief<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>error<sp/>report<sp/>does<sp/>signify<sp/>an<sp/>error.</highlight></codeline>
+<codeline lineno="72"><highlight class="comment">*<sp/>@struct<sp/>error_report<sp/>ErrorReport_struct</highlight></codeline>
+<codeline lineno="73"><highlight class="comment">*<sp/>@return<sp/>bool</highlight></codeline>
+<codeline lineno="74"><highlight class="comment">*<sp/>@retval<sp/>true<sp/>The<sp/>preceding<sp/>`error_report`<sp/>struct<sp/>signifies<sp/>an<sp/>error.</highlight></codeline>
+<codeline lineno="75"><highlight class="comment">*<sp/>@retval<sp/>false<sp/>There<sp/>aren&apos;t<sp/>any<sp/>errors<sp/>signified<sp/>by<sp/>the<sp/>parent<sp/>value.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IsError<sp/>returns<sp/>true<sp/>if<sp/>the<sp/>error<sp/>report<sp/>does<sp/>signify<sp/>an<sp/>error.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">func<sp/>(<ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref><sp/>ErrorReport_struct)<sp/>IsError()<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>_return<sp/>bool;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parametres<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Code<sp/>==<sp/>0<sp/>){</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Return<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_return;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="93"><highlight class="comment">///**</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"></highlight><highlight class="comment">//*<sp/>@fn<sp/>CodeEqual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//*<sp/>@brief<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>`code`<sp/>properties<sp/>of<sp/>the<sp/>reports<sp/>match.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//*<sp/>@struct<sp/>error_report<sp/>*ErrorReport_struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//*<sp/>@param<sp/>other_report<sp/>ErrorReport_struct<sp/>[in]<sp/>The<sp/>other<sp/>report<sp/>to<sp/>be<sp/>checked<sp/>against.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">//*<sp/>@return<sp/>bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//*<sp/>@retval<sp/>true<sp/>The<sp/>two<sp/>reports&apos;<sp/>`code`<sp/>properties<sp/>are<sp/>equal.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//*<sp/>@retval<sp/>false<sp/>The<sp/>two<sp/>reports&apos;<sp/>`code`<sp/>properties<sp/>are<sp/>not<sp/>equal.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//*/</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="102"><highlight class="comment">////<sp/>CodeEqual<sp/>returns<sp/>true<sp/>if<sp/>the<sp/>`code`<sp/>properties<sp/>of<sp/>the<sp/>reports<sp/>match.</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"></highlight><highlight class="comment">//func<sp/>(error_report<sp/>*ErrorReport_struct)<sp/>CodeEqual(<sp/>other_report<sp/>ErrorReport_struct<sp/>)<sp/>bool{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>var<sp/>_return<sp/>bool<sp/>=<sp/>nil;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>/*<sp/>Parametres<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>/*<sp/>Function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>/*<sp/>Return<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>return<sp/>_return;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="114"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="115"><highlight class="comment">*<sp/>@fn<sp/>CodeEqual</highlight></codeline>
+<codeline lineno="116"><highlight class="comment">*<sp/>@brief<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>report&apos;s<sp/>`Code`<sp/>property<sp/>matches<sp/>the<sp/>`code`<sp/>parametre<sp/>given.</highlight></codeline>
+<codeline lineno="117"><highlight class="comment">*<sp/>@struct<sp/>error_report<sp/>ErrorReport_struct</highlight></codeline>
+<codeline lineno="118"><highlight class="comment">*<sp/>@param<sp/>code<sp/>int64<sp/>[in]<sp/>The<sp/>code<sp/>value<sp/>to<sp/>check<sp/>against<sp/>the<sp/>error<sp/>report.</highlight></codeline>
+<codeline lineno="119"><highlight class="comment">*<sp/>@return<sp/>bool</highlight></codeline>
+<codeline lineno="120"><highlight class="comment">*<sp/>@retval<sp/>true<sp/>The<sp/>codes<sp/>are<sp/>equal.</highlight></codeline>
+<codeline lineno="121"><highlight class="comment">*<sp/>@retval<sp/>false<sp/>The<sp/>codes<sp/>are<sp/>not<sp/>equal.</highlight></codeline>
+<codeline lineno="122"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CodeEqual<sp/>returns<sp/>true<sp/>if<sp/>the<sp/>report&apos;s<sp/>`code`<sp/>property<sp/>matches<sp/>the<sp/>`code`<sp/>parametre<sp/>given.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">func<sp/>(<ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref><sp/>ErrorReport_struct)<sp/>CodeEqual(<sp/>code<sp/>int64<sp/>)<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>_return<sp/>bool;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parametres<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Code<sp/>==<sp/>code<sp/>){</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Return<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_return;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="139"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="140"><highlight class="comment">*<sp/>@fn<sp/>WrapsAnother</highlight></codeline>
+<codeline lineno="141"><highlight class="comment">*<sp/>@brief<sp/>Returns<sp/>true<sp/>if<sp/>this<sp/>`error_report`<sp/>wraps<sp/>another<sp/>error<sp/>report.</highlight></codeline>
+<codeline lineno="142"><highlight class="comment">*<sp/>@struct<sp/>error_report<sp/>ErrorReport_struct</highlight></codeline>
+<codeline lineno="143"><highlight class="comment">*<sp/>@return<sp/>bool</highlight></codeline>
+<codeline lineno="144"><highlight class="comment">*<sp/>@retval<sp/>true<sp/>`error_report`<sp/>wraps<sp/>another<sp/>error<sp/>report.</highlight></codeline>
+<codeline lineno="145"><highlight class="comment">*<sp/>@retval<sp/>false<sp/>`error_report<sp/>does<sp/>not<sp/>wrap<sp/>another<sp/>error<sp/>report.</highlight></codeline>
+<codeline lineno="146"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WrapsAnother<sp/>returns<sp/>true<sp/>if<sp/>this<sp/>`error_report`<sp/>wraps<sp/>another<sp/>error<sp/>report.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal">func<sp/>(<ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref><sp/>ErrorReport_struct)<sp/>WrapsAnother()<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>_return<sp/>bool;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parametres<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Wrapped<sp/>!=<sp/>nil<sp/>){</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Return<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_return;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="163"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="164"><highlight class="comment">*<sp/>@fn<sp/>GetWrapped</highlight></codeline>
+<codeline lineno="165"><highlight class="comment">*<sp/>@brief<sp/>Returns<sp/>the<sp/>error<sp/>report<sp/>being<sp/>wrapped<sp/>by<sp/>the<sp/>current<sp/>error<sp/>report.</highlight></codeline>
+<codeline lineno="166"><highlight class="comment">*<sp/>@struct<sp/>error_report<sp/>ErrorReport_struct</highlight></codeline>
+<codeline lineno="167"><highlight class="comment">*<sp/>@return<sp/>ErrorReport_struct</highlight></codeline>
+<codeline lineno="168"><highlight class="comment">*<sp/>@retval<sp/>&lt;wrapped<sp/>ErrorReport_struct&gt;<sp/>Success</highlight></codeline>
+<codeline lineno="169"><highlight class="comment">*<sp/>@retval<sp/>nil<sp/>Failed</highlight></codeline>
+<codeline lineno="170"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GetWrapped<sp/>returns<sp/>the<sp/>error<sp/>report<sp/>being<sp/>wrapped<sp/>by<sp/>the<sp/>current<sp/>error<sp/>report.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal">func<sp/>(<ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref><sp/>ErrorReport_struct)<sp/>GetWrapped()<sp/>ErrorReport_struct{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>_return<sp/>ErrorReport_struct;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parametres<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Wrapped<sp/>!=<sp/>nil<sp/>){</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return<sp/>=<sp/>*(<ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Wrapped);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Return<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_return;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="185"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="186"><highlight class="comment">*<sp/>@fn<sp/>Wrap</highlight></codeline>
+<codeline lineno="187"><highlight class="comment">*<sp/>@brief<sp/>Wraps<sp/>the<sp/>given<sp/>error<sp/>report<sp/>inside<sp/>of<sp/>this<sp/>error<sp/>report.</highlight></codeline>
+<codeline lineno="188"><highlight class="comment">*<sp/>@struct<sp/>error_report<sp/>*ErrorReport_struct</highlight></codeline>
+<codeline lineno="189"><highlight class="comment">*<sp/>@param<sp/>wrap_report<sp/>*ErrorReport_struct<sp/>[in]<sp/>The<sp/>a<sp/>pointer<sp/>to<sp/>an<sp/>ErrorReport_struct<sp/>to<sp/>be<sp/>wrapped.</highlight></codeline>
+<codeline lineno="190"><highlight class="comment">*<sp/>@return<sp/></highlight></codeline>
+<codeline lineno="191"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Wrap<sp/>wraps<sp/>the<sp/>given<sp/>error<sp/>report<sp/>inside<sp/>of<sp/>this<sp/>error<sp/>report.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal">func<sp/>(<ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref><sp/>*ErrorReport_struct)<sp/>Wrap(<sp/>wrap_report<sp/>ErrorReport_struct<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parametres<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="error__report_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Wrapped<sp/>=<sp/>&amp;wrap_report;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Return<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Global<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal">var(</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Exported<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Private<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Exported<sp/>Functions</highlight><highlight class="comment"></highlight></codeline>
+<codeline lineno="209"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="210"><highlight class="comment">*<sp/>@fn<sp/>New</highlight></codeline>
+<codeline lineno="211"><highlight class="comment">*<sp/>@brief<sp/>Creates<sp/>a<sp/>new<sp/>Error<sp/>Report.</highlight></codeline>
+<codeline lineno="212"><highlight class="comment">*<sp/>@param<sp/>code<sp/>int64<sp/>[in]<sp/>The<sp/>code,<sp/>a<sp/>unique,<sp/>static,<sp/>signed<sp/>64-bit-integer<sp/>value,<sp/>to<sp/>be<sp/>used<sp/>for<sp/>the<sp/>new<sp/>error<sp/>report.</highlight></codeline>
+<codeline lineno="213"><highlight class="comment">*<sp/>@param<sp/>data<sp/>map[string]interface{}<sp/>[in]<sp/>A<sp/>string-keyed<sp/>map<sp/>to<sp/>be<sp/>used<sp/>for<sp/>the<sp/>`data`<sp/>property<sp/>of<sp/>the<sp/>new<sp/>error<sp/>report.</highlight></codeline>
+<codeline lineno="214"><highlight class="comment">*<sp/>@param<sp/>wrapped_report<sp/>*ErrorReport_struct<sp/>[in]<sp/>A<sp/>pointer<sp/>to<sp/>a<sp/>pre-existing<sp/>error<sp/>report,<sp/>if<sp/>any,<sp/>which<sp/>the<sp/>new<sp/>error<sp/>report<sp/>should<sp/>wrap.</highlight></codeline>
+<codeline lineno="215"><highlight class="comment">*<sp/>@return<sp/>ErrorReport_struct</highlight></codeline>
+<codeline lineno="216"><highlight class="comment">*<sp/>@retval<sp/>&lt;The<sp/>new<sp/>ErrorReport_struct&gt;<sp/>Success</highlight></codeline>
+<codeline lineno="217"><highlight class="comment">*<sp/>@retval<sp/>nil<sp/>Error</highlight></codeline>
+<codeline lineno="218"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">//<sp/>New<sp/>creates<sp/>a<sp/>new<sp/>Error<sp/>Report.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="error__report_8go_1ab97fd8d9b6b6a96bab1bdb89b49bd10b" refkind="member"><highlight class="normal">func<sp/><ref refid="error__report_8go_1ab97fd8d9b6b6a96bab1bdb89b49bd10b" kindref="member">New</ref>(<sp/>code<sp/>int64,<sp/>data<sp/>map[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">]<ref refid="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" kindref="member">interface</ref>{},<sp/>wrapped_report<sp/>*ErrorReport_struct<sp/>)<sp/>ErrorReport_struct{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>_return<sp/>ErrorReport_struct;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parametres<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>code<sp/>&lt;<sp/>-9007199254740991<sp/>){</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return.Code<sp/>=<sp/>-9007199254740991;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>code<sp/>&gt;<sp/>9007199254740991<sp/>){</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return.Code<sp/>=<sp/>9007199254740991;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_return.Code<sp/>=<sp/>code;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>_return.Data<sp/>=<sp/>data;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>_return.Wrapped<sp/>=<sp/>wrapped_report;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Return<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_return;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Private<sp/>Functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="source/error_report.go"/>
+  </compounddef>
+</doxygen>

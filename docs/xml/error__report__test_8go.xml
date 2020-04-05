@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="error__report__test_8go" kind="file" language="Javascript">
+    <compoundname>error_report_test.go</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" prot="public" static="no" mutable="no">
+        <type>package</type>
+        <definition>package error_report</definition>
+        <argsstring></argsstring>
+        <name>error_report</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="10" column="1" bodyfile="source/error_report_test.go" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="error__report__test_8go_1aa973235d56c608fc86e29e00b52ac800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>import</definition>
+        <argsstring>(&quot;testing&quot;&quot;log&quot;)</argsstring>
+        <name>import</name>
+        <param>
+          <type>&quot;testing&quot;&quot;log&quot;</type>
+          <defname>&quot;testing&quot;&quot;log&quot;</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="error__report__test_8go_1aad4f70f478f3cf8ac1de1235eb41566a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>const</definition>
+        <argsstring>()</argsstring>
+        <name>const</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="error__report__test_8go_1a2f45d7c5e94d31773face53ed6eae46a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>var func</type>
+        <definition>var func Test</definition>
+        <argsstring>(t *testing.T)</argsstring>
+        <name>Test</name>
+        <param>
+          <type>t *testing.</type>
+          <declname>T</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="40" column="1" bodyfile="source/error_report_test.go" bodystart="40" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Tests functions in <computeroutput><ref refid="error__report_8go" kindref="compound">error_report.go</ref></computeroutput>. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Anadian </para></simplesect>
+<simplesect kind="copyright"><para>MITlicensetm(2019,Canosw) </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/**</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/>@file<sp/>error_report_test.go</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*<sp/>@brief<sp/>Tests<sp/>functions<sp/>in<sp/>`error_report.go`.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/>@author<sp/>Anadian</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/>@copyright<sp/>MITlicensetm(2019,Canosw)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>error_report<sp/>tests<sp/>functions<sp/>in<sp/>`error_report.go`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">error_report;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Dependencies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Internal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Standard</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;testing&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;log&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>External</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Exported<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>Errors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Private<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Types</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//##<sp/>Interfaces</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//##<sp/>Structs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//###<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Global<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">var(</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Exported<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>Private<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Exported<sp/>Functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="error__report__test_8go_1a2f45d7c5e94d31773face53ed6eae46a" refkind="member"><highlight class="normal">func<sp/><ref refid="error__report__test_8go_1a2f45d7c5e94d31773face53ed6eae46a" kindref="member">Test</ref>(<sp/>t<sp/>*testing.T<sp/>){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>log.SetFlags(<sp/>log.LstdFlags<sp/>|<sp/>log.Lmicroseconds<sp/>|<sp/>log.Lshortfile<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>New</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>(code<sp/>&lt;<sp/>-9007199254740991)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>expected_error_report<sp/>ErrorReport_struct<sp/>=<sp/>ErrorReport_struct{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-9007199254740991,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map[string]<ref refid="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" kindref="member">interface</ref>{}{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;filename&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;error_report_test.go&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nil,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref><sp/>ErrorReport_struct<sp/>=<sp/><ref refid="error__report_8go_1ab97fd8d9b6b6a96bab1bdb89b49bd10b" kindref="member">New</ref>(<sp/>-9007199254740992,<sp/>map[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">]<ref refid="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" kindref="member">interface</ref>{}{<sp/></highlight><highlight class="stringliteral">&quot;filename&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;error_report_test.go&quot;</highlight><highlight class="normal"><sp/>},<sp/>nil<sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Code<sp/>==<sp/>expected_error_report.Code<sp/>){</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>error_report<sp/>(%v)<sp/>==<sp/>expected_error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>,<sp/>expected_error_report);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>error_report<sp/>(%v)<sp/>!==<sp/>expected_error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>,<sp/>expected_error_report);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>(code<sp/>&gt;<sp/>9007199254740991)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_error_report.Code<sp/>=<sp/>9007199254740991;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>error_report2<sp/>ErrorReport_struct<sp/>=<sp/><ref refid="error__report_8go_1ab97fd8d9b6b6a96bab1bdb89b49bd10b" kindref="member">New</ref>(<sp/>9007199254740992,<sp/>map[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">]<ref refid="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" kindref="member">interface</ref>{}{<sp/></highlight><highlight class="stringliteral">&quot;filename&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;error_report_test.go&quot;</highlight><highlight class="normal"><sp/>},<sp/>nil<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>error_report2.Code<sp/>==<sp/>expected_error_report.Code<sp/>){</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>error_report<sp/>(%v)<sp/>==<sp/>expected_error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/>error_report2,<sp/>expected_error_report);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>error_report<sp/>(%v)<sp/>!==<sp/>expected_error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/>error_report2,<sp/>expected_error_report);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_error_report.Code<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>error_report3<sp/>ErrorReport_struct<sp/>=<sp/><ref refid="error__report_8go_1ab97fd8d9b6b6a96bab1bdb89b49bd10b" kindref="member">New</ref>(<sp/>0,<sp/>map[</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">]<ref refid="error__report_8go_1ae71113a251252525f1aa68a13b9e95f1" kindref="member">interface</ref>{}{<sp/></highlight><highlight class="stringliteral">&quot;filename&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;error_report_test.go&quot;</highlight><highlight class="normal"><sp/>},<sp/>nil<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>error_report3.Code<sp/>==<sp/>expected_error_report.Code<sp/>){</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>error_report<sp/>(%v)<sp/>==<sp/>expected_error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/>error_report3,<sp/>expected_error_report);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>error_report<sp/>(%v)<sp/>!==<sp/>expected_error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/>error_report3,<sp/>expected_error_report);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//##<sp/>ErrorReport_struct<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>expected_bool<sp/>bool;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>actual_bool<sp/>bool;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>NoError</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>(error_report.Code<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_bool<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_bool<sp/>=<sp/>error_report3.NoError();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>actual_bool<sp/>==<sp/>expected_bool<sp/>){</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>actual_bool<sp/>(%t)<sp/>==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>actual_bool<sp/>(%t)<sp/>!==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_bool<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_bool<sp/>=<sp/>error_report2.NoError();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>actual_bool<sp/>==<sp/>expected_bool<sp/>){</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>actual_bool<sp/>(%t)<sp/>==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>actual_bool<sp/>(%t)<sp/>!==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>IsError</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>(error_report.Code<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_bool<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_bool<sp/>=<sp/>error_report3.IsError();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>actual_bool<sp/>==<sp/>expected_bool<sp/>){</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>actual_bool<sp/>(%t)<sp/>==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>actual_bool<sp/>(%t)<sp/>!==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_bool<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_bool<sp/>=<sp/>error_report2.IsError();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>actual_bool<sp/>==<sp/>expected_bool<sp/>){</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>actual_bool<sp/>(%t)<sp/>==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>actual_bool<sp/>(%t)<sp/>!==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>CodeEqual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>(error_report.Code<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_bool<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_bool<sp/>=<sp/>error_report3.CodeEqual(<sp/>int64(0)<sp/>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>actual_bool<sp/>==<sp/>expected_bool<sp/>){</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>actual_bool<sp/>(%t)<sp/>==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>actual_bool<sp/>(%t)<sp/>!==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_bool<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_bool<sp/>=<sp/>error_report2.CodeEqual(<sp/>int64(0)<sp/>);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>actual_bool<sp/>==<sp/>expected_bool<sp/>){</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>actual_bool<sp/>(%t)<sp/>==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>actual_bool<sp/>(%t)<sp/>!==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>Wrap</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>error_report2.Wrap(<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref><sp/>);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>error_report2.Wrapped<sp/>!=<sp/>nil<sp/>){</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>error_report2<sp/>(%v)<sp/>now<sp/>wraps<sp/>error_report<sp/>(%v).&quot;</highlight><highlight class="normal">,<sp/>error_report2,<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>error_report2<sp/>(%v)<sp/>doesn&apos;t<sp/>wrap<sp/>anything.&quot;</highlight><highlight class="normal">,<sp/>error_report2);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>WrapsAnother</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_bool<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_bool<sp/>=<sp/>error_report2.WrapsAnother();</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>actual_bool<sp/>==<sp/>expected_bool<sp/>){</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>actual_bool<sp/>(%t)<sp/>==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>actual_bool<sp/>(%t)<sp/>!==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_bool<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_bool<sp/>=<sp/>error_report3.WrapsAnother();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>actual_bool<sp/>==<sp/>expected_bool<sp/>){</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>actual_bool<sp/>(%t)<sp/>==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>actual_bool<sp/>(%t)<sp/>!==<sp/>expected_bool<sp/>(%t)\n&quot;</highlight><highlight class="normal">,<sp/>actual_bool,<sp/>expected_bool);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//###<sp/>GetWrapped</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>error_report1_copy<sp/>ErrorReport_struct;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>error_report1_copy<sp/>=<sp/>error_report2.GetWrapped();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>error_report1_copy.CodeEqual(<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Code<sp/>)<sp/>==<sp/>true<sp/>){</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>error_report1_copy<sp/>(%v)<sp/>is<sp/>equal<sp/>to<sp/>error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/>error_report1_copy,<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>error_report1_copy<sp/>(%v)<sp/>is<sp/>not<sp/>equal<sp/>to<sp/>error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/>error_report1_copy,<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//####<sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>var<sp/>error_report_copy<sp/>ErrorReport_struct;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>error_report_copy<sp/>=<sp/>error_report3.GetWrapped();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>error_report_copy.CodeEqual(<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>.Code<sp/>)<sp/>==<sp/>false<sp/>){</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Success:<sp/>error_report_copy<sp/>(%v)<sp/>is<sp/>not<sp/>equal<sp/>to<sp/>error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/>error_report_copy,<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.Fail();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log.Printf(</highlight><highlight class="stringliteral">&quot;Failure:<sp/>error_report_copy<sp/>(%v)<sp/>is<sp/>equal<sp/>to<sp/>error_report<sp/>(%v)\n&quot;</highlight><highlight class="normal">,<sp/>error_report_copy,<sp/><ref refid="error__report__test_8go_1aebf711e7762b0c01ef1149ee84adfbf2" kindref="member">error_report</ref>);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">//#<sp/>Private<sp/>Functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="source/error_report_test.go"/>
+  </compounddef>
+</doxygen>

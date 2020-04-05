@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structerror__report" kind="struct" language="Java" prot="package">
+    <compoundname>error_report</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="structerror__report_1a9e364aae97468f527b1f21f2239a6149" prot="package" static="no" mutable="no">
+        <type></type>
+        <definition>error_report.else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{
+		<ref refid="structerror__report_1a642f1811b34281bd7d3507b702b7bde1" kindref="member">_return</ref> = false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="63" column="1" bodyfile="source/error_report.go" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1a642f1811b34281bd7d3507b702b7bde1" prot="package" static="no" mutable="no">
+        <type>return</type>
+        <definition>return error_report._return</definition>
+        <argsstring></argsstring>
+        <name>_return</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="67" column="1" bodyfile="source/error_report.go" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1ad04fe5958a1d7d2ecd7bef32a3b61cca" prot="package" static="no" mutable="no">
+        <type><ref refid="namespaceerror__report_1a957b4bd702d4c6b5d9a61a0d89780c48" kindref="member">var</ref> expected_error_report</type>
+        <definition>var expected_error_report error_report.ErrorReport_struct</definition>
+        <argsstring></argsstring>
+        <name>ErrorReport_struct</name>
+        <initializer>= ErrorReport_struct{
+		-9007199254740991,
+		map[string]interface{}{
+			&quot;filename&quot;: &quot;error_report_test.go&quot;,
+		},
+		nil,
+	}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="44" column="1" bodyfile="source/error_report_test.go" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1a49a3de60c85d9474d3eff21fe2b28da3" prot="package" static="no" mutable="no">
+        <type><ref refid="namespaceerror__report_1a957b4bd702d4c6b5d9a61a0d89780c48" kindref="member">var</ref> <ref refid="structerror__report" kindref="compound">error_report</ref></type>
+        <definition>var error_report error_report.ErrorReport_struct</definition>
+        <argsstring></argsstring>
+        <name>ErrorReport_struct</name>
+        <initializer>= <ref refid="namespaceerror__report_1a54a3ae32daf359ae715cc9f3a5ffb4fc" kindref="member">New</ref>( -9007199254740992, map[string]interface{}{ &quot;filename&quot;: &quot;error_report_test.go&quot; }, nil )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="51" column="1" bodyfile="source/error_report_test.go" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1a0faa24303ccf36ccded968391709446d" prot="package" static="no" mutable="no">
+        <type>expected_error_report.</type>
+        <definition>expected_error_report error_report::Code</definition>
+        <argsstring></argsstring>
+        <name>Code</name>
+        <initializer>= 9007199254740991</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="59" column="1" bodyfile="source/error_report_test.go" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1a501390f499fa7673e4636447764d3e6b" prot="package" static="no" mutable="no">
+        <type><ref refid="namespaceerror__report_1a957b4bd702d4c6b5d9a61a0d89780c48" kindref="member">var</ref> error_report2</type>
+        <definition>var error_report2 error_report.ErrorReport_struct</definition>
+        <argsstring></argsstring>
+        <name>ErrorReport_struct</name>
+        <initializer>= <ref refid="namespaceerror__report_1a54a3ae32daf359ae715cc9f3a5ffb4fc" kindref="member">New</ref>( 9007199254740992, map[string]interface{}{ &quot;filename&quot;: &quot;error_report_test.go&quot; }, nil )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="60" column="1" bodyfile="source/error_report_test.go" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1ae0f941c66df68389b3869b6f38ab640b" prot="package" static="no" mutable="no">
+        <type><ref refid="namespaceerror__report_1a957b4bd702d4c6b5d9a61a0d89780c48" kindref="member">var</ref> error_report3</type>
+        <definition>var error_report3 error_report.ErrorReport_struct</definition>
+        <argsstring></argsstring>
+        <name>ErrorReport_struct</name>
+        <initializer>= <ref refid="namespaceerror__report_1a54a3ae32daf359ae715cc9f3a5ffb4fc" kindref="member">New</ref>( 0, map[string]interface{}{ &quot;filename&quot;: &quot;error_report_test.go&quot; }, nil )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="69" column="1" bodyfile="source/error_report_test.go" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1abeea69b1f8d637c41033bd59faab7bc9" prot="package" static="no" mutable="no">
+        <type><ref refid="namespaceerror__report_1a957b4bd702d4c6b5d9a61a0d89780c48" kindref="member">var</ref> <ref refid="structerror__report_1a07ffd2f127b00f52f1c1219a01c6779b" kindref="member">expected_bool</ref></type>
+        <definition>var expected_bool error_report.bool</definition>
+        <argsstring></argsstring>
+        <name>bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="77" column="1" bodyfile="source/error_report_test.go" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1af006f09b099f56744ee96f4c4dc28e91" prot="package" static="no" mutable="no">
+        <type><ref refid="namespaceerror__report_1a957b4bd702d4c6b5d9a61a0d89780c48" kindref="member">var</ref> <ref refid="structerror__report_1ae39cca86d784792d719ce432b570131f" kindref="member">actual_bool</ref></type>
+        <definition>var actual_bool error_report.bool</definition>
+        <argsstring></argsstring>
+        <name>bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="78" column="1" bodyfile="source/error_report_test.go" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1a07ffd2f127b00f52f1c1219a01c6779b" prot="package" static="no" mutable="no">
+        <type></type>
+        <definition>error_report.expected_bool</definition>
+        <argsstring></argsstring>
+        <name>expected_bool</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="81" column="1" bodyfile="source/error_report_test.go" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1ae39cca86d784792d719ce432b570131f" prot="package" static="no" mutable="no">
+        <type></type>
+        <definition>error_report.actual_bool</definition>
+        <argsstring></argsstring>
+        <name>actual_bool</name>
+        <initializer>= error_report3.NoError()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="82" column="1" bodyfile="source/error_report_test.go" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1a65b5b38b55fe4a566b93d31aa2aaf734" prot="package" static="no" mutable="no">
+        <type><ref refid="namespaceerror__report_1a957b4bd702d4c6b5d9a61a0d89780c48" kindref="member">var</ref> <ref refid="structerror__report_1ae1027f310f9c0826512dc0ac60a01e6f" kindref="member">error_report1_copy</ref></type>
+        <definition>var error_report1_copy error_report.ErrorReport_struct</definition>
+        <argsstring></argsstring>
+        <name>ErrorReport_struct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="165" column="1" bodyfile="source/error_report_test.go" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1ae1027f310f9c0826512dc0ac60a01e6f" prot="package" static="no" mutable="no">
+        <type></type>
+        <definition>error_report.error_report1_copy</definition>
+        <argsstring></argsstring>
+        <name>error_report1_copy</name>
+        <initializer>= error_report2.GetWrapped()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="166" column="1" bodyfile="source/error_report_test.go" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1afb29e7b992b2e5173bb67d1762652c9a" prot="package" static="no" mutable="no">
+        <type><ref refid="namespaceerror__report_1a957b4bd702d4c6b5d9a61a0d89780c48" kindref="member">var</ref> <ref refid="structerror__report_1a975b32100858d5e60a3684241f9545c3" kindref="member">error_report_copy</ref></type>
+        <definition>var error_report_copy error_report.ErrorReport_struct</definition>
+        <argsstring></argsstring>
+        <name>ErrorReport_struct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="174" column="1" bodyfile="source/error_report_test.go" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structerror__report_1a975b32100858d5e60a3684241f9545c3" prot="package" static="no" mutable="no">
+        <type></type>
+        <definition>error_report.error_report_copy</definition>
+        <argsstring></argsstring>
+        <name>error_report_copy</name>
+        <initializer>= error_report3.GetWrapped()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="175" column="1" bodyfile="source/error_report_test.go" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="return"><para>bool </para></simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>true</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The preceding <computeroutput><ref refid="structerror__report" kindref="compound">error_report</ref></computeroutput> struct signifies an error. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>false</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>There aren&apos;t any errors signified by the parent value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other_report</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ErrorReport_struct [in] The other report to be checked against. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>true</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The two reports&apos; <computeroutput>code</computeroutput> properties are equal. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>false</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The two reports&apos; <computeroutput>code</computeroutput> properties are not equal.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int64 [in] The code value to check against the error report. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>true</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The codes are equal. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>false</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The codes are not equal.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para></simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>true</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><computeroutput><ref refid="structerror__report" kindref="compound">error_report</ref></computeroutput> wraps another error report. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>false</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>`error_report does not wrap another error report.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ErrorReport_struct </para></simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>&lt;wrapped</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ErrorReport_struct&gt; Success </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nil</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Failed</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>wrap_report</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>*ErrorReport_struct [in] The a pointer to an ErrorReport_struct to be wrapped. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>    </detaileddescription>
+    <location file="source/error_report.go" line="72" column="1"/>
+    <listofallmembers>
+      <member refid="structerror__report_1a642f1811b34281bd7d3507b702b7bde1" prot="package" virt="non-virtual"><scope>error_report</scope><name>_return</name></member>
+      <member refid="structerror__report_1ae39cca86d784792d719ce432b570131f" prot="package" virt="non-virtual"><scope>error_report</scope><name>actual_bool</name></member>
+      <member refid="structerror__report_1abeea69b1f8d637c41033bd59faab7bc9" prot="package" virt="non-virtual"><scope>error_report</scope><name>bool</name></member>
+      <member refid="structerror__report_1af006f09b099f56744ee96f4c4dc28e91" prot="package" virt="non-virtual"><scope>error_report</scope><name>bool</name></member>
+      <member refid="structerror__report_1a0faa24303ccf36ccded968391709446d" prot="package" virt="non-virtual"><scope>error_report</scope><name>Code</name></member>
+      <member refid="structerror__report_1a9e364aae97468f527b1f21f2239a6149" prot="package" virt="non-virtual"><scope>error_report</scope><name>else</name></member>
+      <member refid="structerror__report_1ae1027f310f9c0826512dc0ac60a01e6f" prot="package" virt="non-virtual"><scope>error_report</scope><name>error_report1_copy</name></member>
+      <member refid="structerror__report_1a975b32100858d5e60a3684241f9545c3" prot="package" virt="non-virtual"><scope>error_report</scope><name>error_report_copy</name></member>
+      <member refid="structerror__report_1ad04fe5958a1d7d2ecd7bef32a3b61cca" prot="package" virt="non-virtual"><scope>error_report</scope><name>ErrorReport_struct</name></member>
+      <member refid="structerror__report_1a49a3de60c85d9474d3eff21fe2b28da3" prot="package" virt="non-virtual"><scope>error_report</scope><name>ErrorReport_struct</name></member>
+      <member refid="structerror__report_1a501390f499fa7673e4636447764d3e6b" prot="package" virt="non-virtual"><scope>error_report</scope><name>ErrorReport_struct</name></member>
+      <member refid="structerror__report_1ae0f941c66df68389b3869b6f38ab640b" prot="package" virt="non-virtual"><scope>error_report</scope><name>ErrorReport_struct</name></member>
+      <member refid="structerror__report_1a65b5b38b55fe4a566b93d31aa2aaf734" prot="package" virt="non-virtual"><scope>error_report</scope><name>ErrorReport_struct</name></member>
+      <member refid="structerror__report_1afb29e7b992b2e5173bb67d1762652c9a" prot="package" virt="non-virtual"><scope>error_report</scope><name>ErrorReport_struct</name></member>
+      <member refid="structerror__report_1a07ffd2f127b00f52f1c1219a01c6779b" prot="package" virt="non-virtual"><scope>error_report</scope><name>expected_bool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

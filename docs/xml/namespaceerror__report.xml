@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespaceerror__report" kind="namespace" language="Java">
+    <compoundname>error_report</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceerror__report_1a4b91c6a500483294dd90dad35d411275" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.func</definition>
+        <argsstring>(error_report ErrorReport_struct) IsError() bool</argsstring>
+        <name>func</name>
+        <param>
+          <type><ref refid="structerror__report" kindref="compound">error_report</ref></type>
+          <declname>ErrorReport_struct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="79" column="1" bodyfile="source/error_report.go" bodystart="79" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1ab438294241b26a869ac5eb72bb9d96ea" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.func</definition>
+        <argsstring>(error_report *ErrorReport_struct) Wrap(wrap_report ErrorReport_struct)</argsstring>
+        <name>func</name>
+        <param>
+          <type><ref refid="structerror__report" kindref="compound">error_report</ref> *</type>
+          <declname>ErrorReport_struct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="194" column="1" bodyfile="source/error_report.go" bodystart="194" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1a957b4bd702d4c6b5d9a61a0d89780c48" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.var</definition>
+        <argsstring>()</argsstring>
+        <name>var</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="203" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1a54a3ae32daf359ae715cc9f3a5ffb4fc" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceerror__report_1a4b91c6a500483294dd90dad35d411275" kindref="member">func</ref></type>
+        <definition>func error_report.New</definition>
+        <argsstring>(code int64, data map[string]interface{}, wrapped_report *ErrorReport_struct) ErrorReport_struct</argsstring>
+        <name>New</name>
+        <param>
+          <type>code</type>
+          <declname>int64</declname>
+        </param>
+        <param>
+          <type>data mapinterface{}</type>
+          <array>[string]</array>
+        </param>
+        <param>
+          <type>wrapped_report *</type>
+          <declname>ErrorReport_struct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report.go" line="221" column="1" bodyfile="source/error_report.go" bodystart="221" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1a77bb75d9b1d58022baf4ade98ec3f1ac" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.if</definition>
+        <argsstring>(error_report.Code==expected_error_report.Code)</argsstring>
+        <name>if</name>
+        <param>
+          <type>error_report.</type>
+          <declname>Code</declname>
+          <defval>=expected_error_report.Code</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="52" column="1" bodyfile="source/error_report_test.go" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1ad1d260db271029a135873d2edd8b38da" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>log.</type>
+        <definition>log. error_report.Printf</definition>
+        <argsstring>(&quot;Failure: error_report (%v) !== expected_error_report (%v)\n&quot;, error_report, expected_error_report)</argsstring>
+        <name>Printf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1a496c18abee45728a07e24f719c27e9f1" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.if</definition>
+        <argsstring>(error_report2.Code==expected_error_report.Code)</argsstring>
+        <name>if</name>
+        <param>
+          <type>error_report2.</type>
+          <declname>Code</declname>
+          <defval>=expected_error_report.Code</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="61" column="1" bodyfile="source/error_report_test.go" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1aa22ba426b36fef0637e37dd49c386202" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.if</definition>
+        <argsstring>(error_report3.Code==expected_error_report.Code)</argsstring>
+        <name>if</name>
+        <param>
+          <type>error_report3.</type>
+          <declname>Code</declname>
+          <defval>=expected_error_report.Code</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="70" column="1" bodyfile="source/error_report_test.go" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1a3fbe3a740671d201f2f458efe2e24e9b" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.if</definition>
+        <argsstring>(actual_bool==expected_bool)</argsstring>
+        <name>if</name>
+        <param>
+          <type><ref refid="structerror__report_1ae39cca86d784792d719ce432b570131f" kindref="member">actual_bool</ref></type>
+          <defval>=<ref refid="structerror__report_1a07ffd2f127b00f52f1c1219a01c6779b" kindref="member">expected_bool</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="83" column="1" bodyfile="source/error_report_test.go" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1a289311b29337e5bb76fdf700cec7c3dd" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>error_report2.</type>
+        <definition>error_report2. error_report.Wrap</definition>
+        <argsstring>(error_report)</argsstring>
+        <name>Wrap</name>
+        <param>
+          <type><ref refid="structerror__report" kindref="compound">error_report</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="137" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1a9441f83e26341febc2417de2edb4a2a7" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.if</definition>
+        <argsstring>(error_report2.Wrapped!=nil)</argsstring>
+        <name>if</name>
+        <param>
+          <type>error_report2.Wrapped!</type>
+          <defval>nil</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="138" column="1" bodyfile="source/error_report_test.go" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1ab99fd348d2b0bc3d4962287c4e6069e8" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>log.</type>
+        <definition>log. error_report.Printf</definition>
+        <argsstring>(&quot;Failure: error_report2 (%v) doesn&apos;t wrap anything.&quot;, error_report2)</argsstring>
+        <name>Printf</name>
+        <param>
+          <type>&quot;Failure: error_report2 (%v) doesn&apos;t wrap anything.&quot;</type>
+        </param>
+        <param>
+          <type>error_report2</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="142" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1ab37e6ee319766494782bfe5bf5226160" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.if</definition>
+        <argsstring>(error_report1_copy.CodeEqual(error_report.Code)==true)</argsstring>
+        <name>if</name>
+        <param>
+          <type>error_report1_copy.</type>
+          <declname>CodeEqual</declname>
+          <array>error_report.Code</array>
+          <defval>=true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="167" column="1" bodyfile="source/error_report_test.go" bodystart="167" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1ad13529722bacea9b97849e5d4bbeb6fa" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>log.</type>
+        <definition>log. error_report.Printf</definition>
+        <argsstring>(&quot;Failure: error_report1_copy (%v) is not equal to error_report (%v)\n&quot;, error_report1_copy, error_report)</argsstring>
+        <name>Printf</name>
+        <param>
+          <type>&quot;Failure: <ref refid="structerror__report_1ae1027f310f9c0826512dc0ac60a01e6f" kindref="member">error_report1_copy</ref> (%v) is not equal to <ref refid="structerror__report" kindref="compound">error_report</ref> (%v)\n&quot;</type>
+        </param>
+        <param>
+          <type><ref refid="structerror__report_1ae1027f310f9c0826512dc0ac60a01e6f" kindref="member">error_report1_copy</ref></type>
+        </param>
+        <param>
+          <type><ref refid="structerror__report" kindref="compound">error_report</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="171" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1aecc4b135b59398501d3001a43747b264" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>error_report.if</definition>
+        <argsstring>(error_report_copy.CodeEqual(error_report.Code)==false)</argsstring>
+        <name>if</name>
+        <param>
+          <type>error_report_copy.</type>
+          <declname>CodeEqual</declname>
+          <array>error_report.Code</array>
+          <defval>=false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="176" column="1" bodyfile="source/error_report_test.go" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceerror__report_1a7d0061a7c1884455db0977ed6e5f935e" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>log.</type>
+        <definition>log. error_report.Printf</definition>
+        <argsstring>(&quot;Failure: error_report_copy (%v) is equal to error_report (%v)\n&quot;, error_report_copy, error_report)</argsstring>
+        <name>Printf</name>
+        <param>
+          <type>&quot;Failure: <ref refid="structerror__report_1a975b32100858d5e60a3684241f9545c3" kindref="member">error_report_copy</ref> (%v) is equal to <ref refid="structerror__report" kindref="compound">error_report</ref> (%v)\n&quot;</type>
+        </param>
+        <param>
+          <type><ref refid="structerror__report_1a975b32100858d5e60a3684241f9545c3" kindref="member">error_report_copy</ref></type>
+        </param>
+        <param>
+          <type><ref refid="structerror__report" kindref="compound">error_report</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/error_report_test.go" line="180" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/error_report.go" line="9" column="1"/>
+  </compounddef>
+</doxygen>
